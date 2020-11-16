@@ -1,0 +1,32 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat using socket.io as technology for communication in real time",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernanChain/Chat.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "socket.io",
+    "server"
+  ],
+  "author": "hernanChain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hernanChain/Chat/issues"
+  },
+  "homepage": "https://github.com/hernanChain/Chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
