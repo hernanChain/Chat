@@ -19,11 +19,12 @@ message.addEventListener('keypress',()=>{
 })
 
 socket.on('chat:message',(data)=>{
-    actions.innerHTML = ""
+    actions.innerHTML = "";
+    message.value = "";
     output.innerHTML += `<p><strong>${data.username}</strong>:${data.message}</p>`
-})
+});
 
 socket.on('chat:typing',(data)=>{
     console.log(data);
-    actions.innerHTML = `<p><em>${data} is typing </em></p>`
-})
+    actions.innerHTML = `<p><em>${data} is typing </em></p>`;
+});
