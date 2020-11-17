@@ -4,7 +4,7 @@
   "description": "Chat using socket.io as technology for communication in real time",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
